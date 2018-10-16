@@ -8,10 +8,8 @@ for (var i = 0; i < subs.length; i++) {
 
 var minion_bg = document.createElement('div');
 minion_bg.innerHTML = '<div class="minion_content"><div id="band"></div><div class="eye_wrapper" id="eye1"><div class="eye_ring_metal"></div><div class="eye_ring"></div><div class="eye_pupil_wrapper"><div class="eye_pupil_outer"></div><div class="eye_pupil_inner"></div><div class="eye_pupil_glow"></div></div></div><div class="eye_wrapper" id="eye2"><div class="eye_ring_metal"></div><div class="eye_ring"></div><div class="eye_pupil_wrapper"><div class="eye_pupil_outer"></div><div class="eye_pupil_inner"></div><div class="eye_pupil_glow"></div></div></div></div>';
-minion_bg.style['z-index'] = '2147483647';
 minion_bg.style['position'] = 'fixed';
 minion_bg.style['top'] = '0px';
-
 minion_bg.style['height'] = '100%';
 minion_bg.style['width'] = '100%';
 document.children[0].prepend(minion_bg);
